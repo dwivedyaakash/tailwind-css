@@ -1,0 +1,23 @@
+{
+  "name": "tailwind-css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "build:css": "tailwind build -i src/style.css -o dist/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dwivedyaakash/tailwind-css.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dwivedyaakash/tailwind-css/issues"
+  },
+  "homepage": "https://github.com/dwivedyaakash/tailwind-css#readme",
+  "dependencies": {
+    "tailwindcss": "^3.0.23"
+  }
+}

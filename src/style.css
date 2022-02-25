@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  min-height: 100vh;
+}
+
+/* TailWind CSS */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .card {
+    @apply bg-[#4c2885] drop-shadow-2xl flex mx-auto m-8 p-12 max-w-3xl rounded-2xl;
+  }
+
+  .avatar {
+    @apply border-[#2a2a72] border-8 rounded-full;
+  }
+
+  .user-info {
+    @apply ml-8 text-[#eee];
+  }
+  .user-info h2 {
+    @apply font-bold mb-4 text-2xl;
+  }
+  .user-info p {
+    @apply mb-4;
+  }
+
+  .info {
+    @apply flex mb-4;
+  }
+  .info li {
+    @apply pr-10;
+  }
+  .info strong {
+    @apply ml-2 text-sm;
+  }
+
+  .repo {
+    @apply bg-[#2a2a72] inline-block mr-2 mb-2 p-1 py-1 px-2 rounded-md text-xs;
+  }
+}
